@@ -16,6 +16,9 @@ class Car extends Vehicle{
     show(){
         return this.present() + ", it is a " + this.brand;
     }
+    present() {
+        return super.present();
+    }
 }
 
 module.exports = Car;
