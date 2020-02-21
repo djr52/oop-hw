@@ -10,7 +10,6 @@ test("Encapsulation Hallway throws reference error", () =>{
         expect(()=>{
             Enc.Hallway()
         }).toThrow();
-        //expect(Enc.Hallway()).toBe(2);
 
     }
 );
